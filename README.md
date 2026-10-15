@@ -1,2 +1,10 @@
 # my-website
-Hello world
+**Hello world**
+## Example code block
+
+`this is a line of code`
+```
+this is
+multiple
+lines of code
+```
