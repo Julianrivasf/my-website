@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(../images/jaime.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 90%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+#main h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+}
+
+#main p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}

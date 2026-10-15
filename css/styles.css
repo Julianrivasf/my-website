@@ -1,0 +1,296 @@
+:root {
+    --main-green: #04AA6D;
+    --dark-green: #028a56;
+}
+* {
+    box-sizing:border-box
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 90%;
+    max-width: 700px;
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(4, 170, 109,0.5);
+    margin: 40px auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+body {
+   background-image: url(../images/waterfall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card h1 {
+    color: white;
+    font-size: 40px;
+     font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.card p {
+    color: lightgray;
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+.card li {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 12px;
+    border-left: 4px solid white;
+}
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.card th,
+.card td {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 12px;
+    text-align: left;
+    color: white;
+}
+
+.card th {
+    background-color: #222;
+    color: white;
+}
+
+.site-nav ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.site-nav a {
+    display: block;
+    padding: 12px 22px;
+    border-radius: 999px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.site-nav a:hover {
+    background-color: var(--main-green);
+    color: white;
+}
+
+.site-nav a.active {
+    background-color: var(--main-green);
+    color: white;
+}
+
+.site-nav a:focus {
+    background-color: var(--main-green);
+    color: white;
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    color: white;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+}
+@media (max-width: 600px) {
+    .site-nav ul {
+        flex-direction: column;
+    }
+}
+.card img {
+    width: 250px;
+}
+.card .img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+.card a {
+    color: white;
+}
+
+.card a:hover {
+    color: #04AA6D;
+}
+.btn {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 20px;
+    transition: 0.2s;
+    width: 150px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: var(--main-green);
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: #028a56;
+}
+
+.btn-ghost {
+    background-color: transparent;
+    border: 2px solid var(--main-green);
+    color: white !important;
+}
+
+.btn-ghost:hover {
+    background-color: var(--main-green);
+    color: white !important;
+    transform: translateY(-2px);
+}
+
+form {
+    display: grid;
+    gap: 16px;
+}
+form label {
+    color: white;
+    font-weight: 600;
+}
+form input:invalid {
+    border-color: #dc2626;
+  
+}
+
+form input:valid {
+    border-color: #16a34a;
+}
+form input {
+    padding: 12px;
+    border: 2px solid var(--main-green);
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: var(--main-green);
+    box-shadow: 0 0 3px rgba(4, 170, 109, 0.2);
+}
+form button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--main-green);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #028a56;
+}
+.card .btn {
+    margin-bottom: 20px;
+}
+.card table {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.site-nav {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+}
+.card li {
+    margin-bottom: 10px;
+}
+textarea {
+    padding: 12px;
+    border: 2px solid var(--main-green);
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+}
+form textarea:invalid {
+    border-color: #dc2626;
+}
+form textarea:valid {
+    border-color: #16a34a;
+}
+
+.about-heading img {
+    width: 50px;
+    height:auto;
+}
+.about-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.about-heading h1 {
+    margin: 0;
+}
+#about-image {
+    display:block;
+    margin: 10px auto 25px;
+    width: 185px;
+    height:auto;
+    border-radius: 2px solid white;
+}
+#Welcome {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#Form-text {
+    text-align: center;
+    color: white;
+}
+.skills {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 14px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
