@@ -8,6 +8,7 @@
 | POST | sends information to a server to create something new. |
 | PUT | updates existing information on a server. |
 | DELETE | removes information from a server. |
+| HEAD | 	requests the headers of a resource without downloading its body. |
 
 | 5XX | ERRORS |
 |---|---|
