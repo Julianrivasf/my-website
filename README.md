@@ -23,3 +23,12 @@
 | 508 | Loop Detected |
 | 510 | Not Extended |
 | 511 | Network Authentication Required |
+
+
+| Command | Description |
+|---|---|
+| git status | Shows the current changes in your files/your desk. |
+| git add | Adds changes to the box. |
+| git commit | Saves changes to your local repository/seal the box. |
+| git push | Uploads commits to GitHub/sends the box to the mail. |
+| git pull | Downloads the latest changes from GitHub. |
