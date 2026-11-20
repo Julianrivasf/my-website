@@ -32,6 +32,8 @@
 | git commit | Saves changes to your local repository/seal the box. |
 | git push | Uploads commits to GitHub/sends the box to the mail. |
 | git pull | Downloads the latest changes from GitHub. |
+| git branch | Displays all branches and the active branch |
+| git switch -c | Creates a new branch |
 
 | Place | Explanation |
 |---|---|
