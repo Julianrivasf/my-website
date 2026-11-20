@@ -32,3 +32,10 @@
 | git commit | Saves changes to your local repository/seal the box. |
 | git push | Uploads commits to GitHub/sends the box to the mail. |
 | git pull | Downloads the latest changes from GitHub. |
+
+| Place | Explanation |
+|---|---|
+| desk | The files that are currently sitting on your computer |
+| box | Adding the files sitting on your desk to a box to mail out to the world |
+| sealed box | Sealing the box up by committing it |
+| mailing out the box | Pushing the box to GitHub and mailing it out to the world |
