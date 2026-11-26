@@ -302,3 +302,8 @@ form textarea:valid {
 p.error-text {
     text-align: center;
 }
+#nf-button {
+   width: 200px;
+   margin: 0 auto;
+   display:block;
+}
